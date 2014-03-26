@@ -13,12 +13,48 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link type="text/css" rel="stylesheet" href="profile.css">
+		<script type="text/javascript" src="profile.js"></script>
 		<link href='http://fonts.googleapis.com/css?family=Marcellus+SC&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		
+		<!-- SMOOTH SCROLL -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>
+		$(function() {
+		  $('a[href*=#]:not([href=#])').click(function() {
+		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		      var target = $(this.hash);
+		      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		      if (target.length) {
+		        $('html,body').animate({
+		          scrollTop: target.offset().top
+		        }, 1000);
+		        return false;
+		      }
+		    }
+		  });
+		});
+		</script>
+		<!-- End of SMOOTH SCROLL -->
 		
 	</head>
 
 	<body>
 		<header>
+			
+			<div id="scroll_down">
+				<p>Scroll Down<p>
+			</div>
+
+		<nav>
+		  <ul class="nav">
+			<li><a href="#section1">About</a></li>
+			<li><a href="#section2">Education</a></li>
+			<li><a href="#section3">Skill</a></li>
+			<li><a href="#section4">Hobbies</a></li>
+			<li><a href="#section5">Contact Form</a></li>
+		  </ul>
+		</nav>
+		
 		</header>
 
 		<div class="profile_card">
@@ -42,13 +78,15 @@
 				</div>
 			</div>
 		</div>
-
+		
+		<span>
 		<section id="section1"><p>About</p></section>
 		<section id="section2"><p>Education</p></section>
 		<section id="section3"><p>Skill</p></section>
 		<section id="section4"><p>Hobbies</p></section>
 		<section id="section5"><p>Contact Form</p></section>	
-	
+		</span>
+		
 		<footer>
 		</footer>
 	
