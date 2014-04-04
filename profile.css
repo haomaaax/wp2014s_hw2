@@ -42,7 +42,7 @@ header nav{
 
 	background-color:rgba(255,255,255,0.7);
 	box-shadow: inset 0 2px 1px rgba(255,255,255,0.2), 0 2px 1px rgba(0,0,0,0.8);
-}
+} 
 
 nav ul{
     padding-left: 1000px;
@@ -81,12 +81,12 @@ footer{
 	text-decoration:underline;
 }
 
-
+/*
 @font-face {
   font-family: 'Museo';
   src: url("http://rocket-design.fr/fonts/museo/museo.eot?") format("eot"), url("http://rocket-design.fr/fonts/museo/museo.woff") format("woff"), url("http://rocket-design.fr/fonts/museo/museo.ttf") format("truetype");
 }
-
+*/
 
 /* all cover */
 html, body {
@@ -264,17 +264,20 @@ section p {
 
 #section1 {
   background: url(whitey.png) repeat;
+  font-color: #000;
 }
 #section2 {
   background: url(black_linen_v2.png) repeat;
 }
 #section3 {
   background: url(whitey.png) repeat;
+  font-color: #000;
 }
 #section4 {
   background: url(black_linen_v2.png) repeat;
 }
 #section5 {
   background: url(whitey.png) repeat;
+  font-color: #000;
 }
 
