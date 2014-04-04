@@ -29,6 +29,7 @@ header nav{
 
 .nav_bar{
 	list-style-type:none;
+	opacity:0.5;
 }
 
 .nav_bar li{
@@ -50,10 +51,10 @@ nav ul{
     padding-left: 1000px;
 }
 
-/*
+
 #scroll_down{
 	position:absolute;
-	bottom:6em;
+	bottom:8em;
 	left:0;
 	right:0;
 	z-index:999;
@@ -65,7 +66,7 @@ nav ul{
 #scroll_down:after{
 	content:"";
 	position:absolute;
-	bottom:-1em;
+	bottom:-2em;
 	left:50%;
 	width:0;
 	height:0;
@@ -73,7 +74,7 @@ nav ul{
 	border:1em solid transparent;
 	border-top:1em solid #fff;
 }
-*/
+
 body{
 	font-family: 'Cursive', 'Marcellus SC', 'LiHei Pro' ;
 }
@@ -138,7 +139,7 @@ body {
   width: 100px;
   height: 100px;
   background: url(max.png) top;
-  background-size: 100%;
+  background-size: 120%;
   border-radius: 100%;
   margin: -2.7em auto;
   box-shadow: 0 0 0 0.2em rgba(255, 255, 255, 0.9), 0 0 0 0.3em rgba(0, 0, 0, 0.1);
@@ -236,7 +237,6 @@ body {
   box-shadow: 0 0 0.2em rgba(0, 0, 0, 0.1), inset 0 0.2em 0.2em rgba(255, 255, 255, 0.2), 0 0.1em 0em rgba(0, 0, 0, 0.1), 0 0.1em 0.1em rgba(0, 0, 0, 0.05);
 }
 
-
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 * {
   -webkit-box-sizing: border-box;
@@ -261,23 +261,17 @@ section p {
 }
 
 #section1 {
-  background: url(whitey.png) repeat;
-  
+  background: url(low_contrast_linen.png) repeat;
 }
 #section2 {
   background: url(black_linen_v2.png) repeat;
 }
 #section3 {
-  background: url(whitey.png) repeat;
- 
+  background: url(low_contrast_linen.png) repeat;
 }
 #section4 {
   background: url(black_linen_v2.png) repeat;
 }
 #section5 {
-  background: url(whitey.png) repeat;
-}
-
-.section5{
-	padding-top: 15em;
+  background: url(low_contrast_linen.png) repeat;
 }
