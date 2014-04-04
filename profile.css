@@ -1,0 +1,283 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+* {
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: .02em;
+}
+
+/* zocial button from weloveiconfonts.com */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+html{
+    padding-left:15em;
+    padding-right:15em;
+}
+
+.hidden{
+	display:none;
+}
+
+header nav{
+	position:fixed;
+}
+
+.nav_bar{
+	list-style-type:none;
+}
+
+.nav_bar li{
+	
+	padding:0.5em;
+	border-radius:0.5em;
+	margin:1em;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    -o-border-radius:8px;
+    border-radius:8px;
+
+	background-color:rgba(255,255,255,0.7);
+	background: -webkit-linear-gradient(top, #fefefe, #f2f2f2);
+	box-shadow: inset 0 2px 1px rgba(255,255,255,0.2), 0 2px 1px rgba(0,0,0,0.8);
+} 
+
+nav ul{
+    padding-left: 1000px;
+}
+
+/*
+#scroll_down{
+	position:absolute;
+	bottom:6em;
+	left:0;
+	right:0;
+	z-index:999;
+	text-align:center;
+	text-transform:uppercase;
+	color:#fff;
+}
+
+#scroll_down:after{
+	content:"";
+	position:absolute;
+	bottom:-1em;
+	left:50%;
+	width:0;
+	height:0;
+	margin-left:-1em;
+	border:1em solid transparent;
+	border-top:1em solid #fff;
+}
+*/
+body{
+	font-family: 'Cursive', 'Marcellus SC', 'LiHei Pro' ;
+}
+
+footer{
+	font-style: italic;
+	text-decoration:underline;
+}
+
+
+@font-face {
+  font-family: 'Museo';
+  src: url("http://rocket-design.fr/fonts/museo/museo.eot?") format("eot"), url("http://rocket-design.fr/fonts/museo/museo.woff") format("woff"), url("http://rocket-design.fr/fonts/museo/museo.ttf") format("truetype");
+}
+
+
+/* all cover */
+html, body {
+  width: 100%;
+  height: 100%;
+
+} 
+
+/* background */
+body {
+  height: 100%;
+  background: url(black_linen_v2.png) repeat;
+}
+
+/* card box position */
+.profile_card {
+  height: 460px;
+  width: 260px;
+  margin: 15vh auto;
+  border-radius: 1px;
+  box-shadow: 0 0 0 0.22em rgba(255, 255, 255, 0.35);
+}
+
+/* card position */
+.profile_card .header, .profile_card .profile {
+  height: 230px;
+  width: 100%;
+  float: left;
+}
+
+/* profile pic */
+.profile_card .header {
+  background: url(sky.png) no-repeat center center;
+  background-size: 126% 100%;
+
+}
+
+/* profile box */
+.profile_card .profile {
+  background: #333333;
+  font-family: "Museo",serif;
+  box-shadow: 0 -0.2em 0 0 rgba(255, 255, 255, 0.5);
+}
+
+/* avatar image position */
+.profile_card .profile .avatar_image {
+  width: 100px;
+  height: 100px;
+  background: url(max.png) top;
+  background-size: 100%;
+  border-radius: 100%;
+  margin: -2.7em auto;
+  box-shadow: 0 0 0 0.2em rgba(255, 255, 255, 0.9), 0 0 0 0.3em rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 3;
+}
+
+/* text background */
+.profile_card .profile .inner_content {
+  width: 92%;
+  height: 194px;
+  float: left;
+  margin: 0.5em 4%;
+  background: #f9f9f9;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 1px;
+}
+
+/* name style & position */
+.profile_card .profile .inner_content .name {
+  color: #959595;
+  font-size: .9em;
+  text-align: center;
+  padding: .3em 0 .2em;
+  line-height: 2;
+  border-top: 0.1em solid rgba(0, 0, 0, 0.2);
+  border-bottom: 0.1em solid rgba(0, 0, 0, 0.2);
+  font-family: "helvetica neue";
+  font-weight: 400;
+  margin: 2.8em auto;
+  width: 75%;
+  margin-bottom: 1em;
+}
+
+/* text style */
+.profile_card .profile .inner_content .description {
+  font-size: .75em;
+  text-align: center;
+  line-height: .5;
+  font-weight: 100;
+  padding: .2em .5em -.1em;
+  color: #ababab;
+  text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.8);
+}
+
+/* text & button position */
+.profile_card .profile .inner_content ul {
+  list-style: none;
+  padding: 0;
+  width: 80%;
+  height: 3.5em;
+  display: block;
+  margin: 1em auto;
+}
+
+/* button position */
+.profile_card .profile .inner_content ul li {
+  display: block;
+  float: left;
+  padding: 0;
+  margin: .75em 0 0 1.25em;
+  text-align: center;
+}
+
+/* button shadow */
+.profile_card .profile .inner_content ul li:hover a {
+  color: #7f8c8d;
+}
+
+/* gray button */
+.profile_card .profile .inner_content ul li a {
+  color: #95a5a6;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Buttons */
+.button {
+  padding: 9px 9px;
+  font-size: 1em;
+  width: 30px;
+  height: 30px;
+  line-height: 1;
+  position: relative;
+  background: -webkit-linear-gradient(top, #fefefe, #f2f2f2);
+  background: linear-gradient(to bottom, #fefefe, #f2f2f2);
+  box-shadow: 0 0 0.2em rgba(0, 0, 0, 0.1), inset 0 0.2em 0.2em rgba(255, 255, 255, 0.2), 0 0.1em 0.1em rgba(0, 0, 0, 0.1), 0 0.2em 0.1em rgba(0, 0, 0, 0.05);
+  border-radius: 100%;
+}
+.button:hover {
+  box-shadow: 0 0 0.2em rgba(0, 0, 0, 0.15), inset 0 0.2em 0.2em rgba(255, 255, 255, 0.2), 0 0.1em 0.1em rgba(0, 0, 0, 0.15), 0 0.2em 0.1em rgba(0, 0, 0, 0.05);
+}
+.button:active {
+  top: .05em;
+  box-shadow: 0 0 0.2em rgba(0, 0, 0, 0.1), inset 0 0.2em 0.2em rgba(255, 255, 255, 0.2), 0 0.1em 0em rgba(0, 0, 0, 0.1), 0 0.1em 0.1em rgba(0, 0, 0, 0.05);
+}
+
+
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing:border-box;
+}
+
+section {
+  display: table;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+section p {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: #ffffff; 
+  font: 400 48px/50px 'Lato', sans-serif;
+}
+
+#section1 {
+  background: url(whitey.png) repeat;
+  
+}
+#section2 {
+  background: url(black_linen_v2.png) repeat;
+}
+#section3 {
+  background: url(whitey.png) repeat;
+ 
+}
+#section4 {
+  background: url(black_linen_v2.png) repeat;
+}
+#section5 {
+  background: url(whitey.png) repeat;
+}
+
+.section5{
+	padding-top: 15em;
+}

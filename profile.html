@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 9]>
+	    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	  
+<![endif]-->
+
+<html>
+	<head>
+		<title>About Max</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" rel="stylesheet" href="profile.css">
+		<link href='http://fonts.googleapis.com/css?family=Marcellus+SC&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		
+		<!-- SMOOTH SCROLL -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>
+		$(function() {
+		  $('a[href*=#]:not([href=#])').click(function() {
+		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		      var target = $(this.hash);
+		      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		      if (target.length) {
+		        $('html,body').animate({
+		          scrollTop: target.offset().top
+		        }, 1000);
+		        return false;
+		      }
+		    }
+		  });
+		});
+		</script>
+		<!-- End of SMOOTH SCROLL -->
+		
+	</head>
+
+	<body>	
+		<header>	
+			<nav>
+			  <ul class="nav_bar">
+			    <li><a href="#section1"><p>About</p></li>
+			    <li><a href="#section2"><p>Education</p></li>
+			    <li><a href="#section3"><p>Hobbies</p></li>
+			    <li><a href="#section4"><p>Skill</p></li>
+			    <li><a href="#section5"><p>Contact Form</p></li>
+			  </ul>
+			</nav>
+		</header>
+
+		<div class="profile_card">
+		    <div class="header">
+		       <div class="inner_head"></div>
+		    </div>
+			<div class="profile">
+				<div class="avatar_image"></div>
+				<div class="inner_content">
+		      	<h2 class="name" id="name">Max Chen</h2>
+		     	 <span id="desc">
+		       	  	<p class="description" id="desc_one">If you can accept losing,</p>
+		     	 	<p class="description" id="desc_two">you can't win.</p></span>
+		      	<div class="social_links">
+		        <ul>
+		          <li ><a id="linkedin" href="http://www.linkedin.com/in/maxchen0219" class="button"><span class="zocial-linkedin"></span></a></li>
+		          <li ><a id="mail" href="mailto:maxyay5566@gmail.com"  class="button"><span class="zocial-gmail"></span></a></li> 
+		          <li ><a id="twitter" href="https://twitter.com/msyanzi"  class="button"><span class="zocial-twitter"></span></a></li> 
+		        </ul>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+			<section id="section1"><p>About</p></section>
+			<section id="section2"><p>Education</p></section>
+			<section id="section3"><p>Hobbies</p></section>
+			<section id="section4"><p>Skill</p></section>
+			<section id="section5"><a href="http://www.google.com.tw">Contact Form</a></section>
+
+		<footer>  
+      		  <p class="copyright">Copyright @ Max Chen 2014</p>
+    	</footer>  
+
+	</body>
+
+</html>
